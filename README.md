@@ -1,17 +1,45 @@
 [![Deployment Pipeline](https://github.com/mikelarrieta/github-actions-course/actions/workflows/pipeline.yml/badge.svg)](https://github.com/mikelarrieta/github-actions-course/actions/workflows/pipeline.yml)
 
-# Full Stack open CI/CD
+## Description
+Example React application to implement a CI/CD pipeline, built using `React`, with `Cypress` and `Github Actions`.
 
-This repository is used for the CI/CD module of the Full stack open course
+Built following the course [📚 GitHub Actions TUTORIAL Desde Cero](https://www.youtube.com/watch?v=sIhm4YOMK6Q) from Midudev youtube channel.
 
-Fork the repository to complete course exercises
+## Installation
+**Clone** the project using `git clone` command:
+```bash
+git clone https://github.com/mikelarrieta/github-actions-course.git
+```
 
-## Commands
+**Install** all dependencies using yarn:
+```bash
+npm install
+```
 
-Start by running `npm install` inside the project folder
+## Build
+To **build** the application for production:
+```bash
+npm run build
+```
 
-`npm start` to run the webpack dev server
-`npm test` to run tests
-`npm run eslint` to run eslint
-`npm run build` to make a production build
-`npm run start-prod` to run your production build
+## Running the app
+To **run** the application in development mode:
+```bash
+npm start
+```
+
+To **run** the application in production mode:
+```bash
+npm run start-prod
+```
+
+## Test
+To **run** tests:
+```bash
+npm test
+```
+
+To **run** eslint:
+```bash
+npm run eslint
+```
